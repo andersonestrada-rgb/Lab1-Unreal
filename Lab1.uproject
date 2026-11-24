@@ -1,6 +1,18 @@
 {
 	"FileVersion": 3,
 	"EngineAssociation": "5.8",
+	"Modules": [
+		{
+			"Name": "Lab1",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "AnimGraphInspector",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	],
 	"Category": "",
 	"Description": "",
 	"Plugins": [
@@ -21,6 +33,10 @@
 		},
 		{
 			"Name": "ModelContextProtocol",
+			"Enabled": true
+		},
+		{
+			"Name": "ToolsetRegistry",
 			"Enabled": true
 		},
 		{
